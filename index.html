@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <H1>SURVEY FORM</H1>
+    
+    <form id="form">
+        <h5>Survey form for Tech-event</h5>
+
+    <div class="form-control">
+    <label for="name" id="label-name">Name</label>
+    <input TYPE="TEXT" id="NAME" placeholder="ENTER YOUR NAME"required>
+    </div>
+   
+    <DIV  class="form-control">
+    <label for="email" id="label-email">Email</label>
+    <input TYPE="EMAIL" ID="TYPE-EMAIL"  placeholder="ENTER YOUR EMAIL"required>
+    </DIV> 
+
+    <div class="form-control">
+        <lable for="phone">Mobile</lable>
+          <input type="tel" name="phone" id="phone" placeholder="ENTER YOUR NUMBER"required>
+    </div>
+
+    <DIV  class="form-control">
+        <label for="AGE" id="label-AGE">Age</label>
+        <input TYPE="number" ID="TYPE-AGE"  placeholder="ENTER YOUR AGE"required>
+    </DIV> 
+    <div class="form-control">
+        <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="Female">Female
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="Other">Other
+    </div>
+   
+    <DIV  class="form-control">
+            <label for="ROLE" id="label-ROLE">Which option best describes you?</label>
+             
+            <select name="ROLE" id="ROLE">
+                <option VALUE ="STUDENT">STUDENT</option>
+                <option value="INTERN">INTERN</option>
+                <option value="PROFESSIONAL">PROFESSIONAL</option>
+                <option value="OTHER">OTHER</option>          
+            </select>
+    </DIV> 
+     <div class="form-control">
+    <label>Would you recommened to a friend?</label> 
+    <label for="recommend-1">
+    <input type="radio" id="recommend-1" name="recommend">YES</input>
+    </label>
+
+    <!-- <label>would you recommened to a friend</label>  -->
+    <label for="recommend-2">
+    <input type="radio" id="recommend-2" name="recommend">NO</input>
+    </label>
+
+    <!-- <label>would you recommened to a friend</label>  -->
+    <label for="recommend-3">
+    <input type="radio" id="recommend-3" name="recommend">maybe</input>
+    </label>
+     </div> 
+        
+		<div class="form-control">
+			<label>Languages and Frameworks known
+				<small>(Check all that apply)</small>
+			</label>
+			<label for="inp-1">
+				<input type="checkbox"
+					name="inp">C</input></label>
+			<label for="inp-2">
+				<input type="checkbox"
+					name="inp">C++</input></label>
+			<label for="inp-3">
+				<input type="checkbox"
+					name="inp">C#</input></label>
+			<label for="inp-4">
+				<input type="checkbox"
+					name="inp">Java</input></label>
+			<label for="inp-5">
+				<input type="checkbox"
+					name="inp">Python</input></label>
+			<label for="inp-6">
+				<input type="checkbox"
+					name="inp">JavaScript</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">React</input></label>
+			<label for="inp-8">
+				<input type="checkbox"
+					name="inp">Angular</input></label>
+			<label for="inp-9">
+				<input type="checkbox"
+					name="inp">Django</input></label>
+			<label for="inp-10">
+				<input type="checkbox"
+					name="inp">Spring</input></label>
+		</div>
+
+        <div class="form-control">
+            <label>How well did the event meet your expectation?</label>
+            <label for="inp-1">
+				<input type="checkbox"
+					name="inp">1</input></label>
+			<label for="inp-2">
+				<input type="checkbox"
+					name="inp">2</input></label>
+			<label for="inp-3">
+				<input type="checkbox"
+					name="inp">3</input></label>
+			<label for="inp-4">
+				<input type="checkbox"
+					name="inp">4</input></label>
+			<label for="inp-5">
+				<input type="checkbox"
+					name="inp">5</input></label>
+        </div>
+
+        <div class="form-control">
+			<label for="comment">
+				Any comments or suggestions
+			</label>
+			<textarea name="comment" id="comment"
+				placeholder="Enter your comment here">
+			</textarea>
+		</div>
+
+		<button type="submit" value="submit">
+			Submit
+        </button>
+
+    </form>
+</body>
+</html>
